@@ -53,9 +53,10 @@ body{
 	margin-top: -160px;
 	position: relative;
 	overflow:hidden;
+	z-index: -1;
 }
 
-img{
+#img{
 	width: 560px;
 }
 
@@ -123,6 +124,20 @@ img{
 	color: #e314a3;
 }
 
+.img_radius{
+	border-radius: 50px;
+	width: 30px;
+	display: flex;
+  	justify-content: center;
+  	margin-top: -28px;
+    padding: 5px;
+    height: 30px;
+}
+
+.img_course{
+
+}
+
 .skill_last{
 	display: inline-block;
 }
@@ -136,8 +151,21 @@ img{
 	float: right;
 	border-radius: 25px;
 	padding: 10px;
-	background-color: rgba(231 106 199);
+	background-color: rgba(197 120 177);
 	color: white;
 	margin-top: 7px;
 	font-size: 15px;
+}
+
+
+#get_started:hover{
+	background-color: #6f97ef;
+}
+
+#maximize_started:hover{
+	background-color: rgba(239 169 221);
+}
+
+#footer_get_started:hover{
+	background-color: rgba(227 164 211);
 }
