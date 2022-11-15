@@ -1,0 +1,143 @@
+
+body{
+	font-family: sans-serif;
+	background-color: #ffffff;
+}
+
+.main_main{
+	top:  -10px;
+	width: 80%;
+	margin: auto;
+	background-color: rgba(187 195 227 / 15%);
+	height: 100vh;
+	margin-top: -10px;
+	margin-bottom: -5px;
+}
+
+.main_div{
+	margin: auto;
+	width: 75%;
+	top:  10px;
+}
+
+.skill_first{
+	display: inline-block;
+}
+
+#skilled{
+	font-weight: bold;
+}
+
+#get_started{
+	float: right;
+	border-radius: 25px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	margin-top: 7px;
+	font-size: 15px;
+}
+
+#second_div{
+	margin-bottom: 90px;
+}
+
+.second_div{
+	display: inline-block;
+}
+
+#img_div{
+	width: 490px;
+	float: right;
+	margin-right: -187px;
+	margin-top: -160px;
+	position: relative;
+	overflow:hidden;
+}
+
+img{
+	width: 560px;
+}
+
+#main_maximize{
+	width: 400px;
+}
+
+.maximize{
+	display: block;
+}
+
+#maximize{
+	font-weight: bold;
+	font-size: 45px;
+}
+
+#maximize_course{
+	font-size: 15px;
+	margin-top: -35px;
+	color: #9da2a7;
+}
+
+#maximize_started{
+	padding: 10px;
+	border-radius: 25px;
+	background-color: rgba(231 106 199);
+	color: white;
+	font-size: 15px;
+	width: 80px;
+}
+
+.course{
+	border-radius: 5px;
+	width: 300px;
+	display: inline-block;
+	box-shadow: 0 0 10px 5px #d9d9d9;
+	background-color: #ffffff;
+	text-align: left;
+	padding: 10px;
+	font-size: 15px;
+	color: #9da2a7;
+}
+
+.main_course_div{
+	display: block;
+	margin-bottom: 40px;
+	display: flex;
+    /*Making equal spaced divs*/
+    justify-content: space-between;
+}
+
+#popular_course{
+	color: #ffffff;
+	font-weight: bold;
+	background-color: rgba(227 84 157);
+	font-size: 27px;
+}
+
+.course_heading{
+	font-weight: bold;
+	color: #000000;
+}
+
+.course_get_started{
+	color: #e314a3;
+}
+
+.skill_last{
+	display: inline-block;
+}
+
+#footer_skilled{
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#footer_get_started{
+	float: right;
+	border-radius: 25px;
+	padding: 10px;
+	background-color: rgba(231 106 199);
+	color: white;
+	margin-top: 7px;
+	font-size: 15px;
+}
