@@ -9,7 +9,6 @@ body{
 	width: 80%;
 	margin: auto;
 	background-color: rgba(187 195 227 / 15%);
-	height: 100vh;
 	margin-top: -10px;
 	margin-bottom: -5px;
 }
@@ -57,7 +56,9 @@ body{
 }
 
 #img{
-	width: 560px;
+	content: url(assets/image-hero-desktop.png);
+	background-size: 560px;
+  	width: 560px;
 }
 
 #main_maximize{
@@ -91,7 +92,6 @@ body{
 .course{
 	border-radius: 5px;
 	width: 300px;
-	display: inline-block;
 	box-shadow: 0 0 10px 5px #d9d9d9;
 	background-color: #ffffff;
 	text-align: left;
@@ -101,11 +101,11 @@ body{
 }
 
 .main_course_div{
-	display: block;
+	display: grid;
+  	grid-template-columns: 350px 350px 350px;
+  	column-gap: 50px;
+  	row-gap: 50px;
 	margin-bottom: 40px;
-	display: flex;
-    /*Making equal spaced divs*/
-    justify-content: space-between;
 }
 
 #popular_course{
@@ -134,9 +134,6 @@ body{
     height: 30px;
 }
 
-.img_course{
-
-}
 
 .skill_last{
 	display: inline-block;
@@ -168,4 +165,156 @@ body{
 
 #footer_get_started:hover{
 	background-color: rgba(227 164 211);
+}
+
+
+
+
+/*  tablet css  */
+@media only screen and (max-device-width: 768px){
+
+	body{
+		font-family: sans-serif;
+		background-color: rgba(187 195 227 / 15%);
+	}
+
+	.main_main{
+		top:  -10px;
+		width: 100%;
+		margin: auto;
+		background-color: rgba(187 195 227 / 15%);
+		margin-top: -10px;
+	}
+
+	#second_div{
+		margin-bottom: 120px;
+	}
+
+	.main_div{
+		margin: auto;
+		width: 100%;
+		top:  10px;
+		margin-right: 10px;
+		margin-left: 10px;
+		background-color: rgba(187 195 227 / 15%);
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.course{
+		border-radius: 5px;
+		box-shadow: 0 0 10px 5px #d9d9d9;
+		background-color: #ffffff;
+		text-align: left;
+		padding: 10px;
+		font-size: 15px;
+		color: #9da2a7;
+	}
+
+	.main_course_div{
+		display: grid;
+	  	grid-template-columns: 350px 350px;
+	  	column-gap: 50px;
+	  	row-gap: 50px;
+		margin-bottom: 40px;
+	}
+
+	#img{
+		content: url(assets/image-hero-tablet.png);
+		background-size: 560px;
+	  	width: 560px;
+	}
+
+	#footer_get_started{
+		margin-right: 28px;
+	}
+}
+
+
+
+
+/*  mobile css  */
+@media only screen and (max-device-width: 468px){
+	body{
+		margin: auto;
+	}
+
+	.main_main{
+		top:  -10px;
+		width: 100%;
+		margin: auto;
+		background-color: rgba(187 195 227 / 15%);
+		margin-top: -10px;
+	}
+
+	#maximize_course{
+		text-align: justify;
+    	width: 350px;
+	}
+
+	.main_div{
+		margin: auto;
+		width: 100%;
+		top:  10px;
+		/*margin-right: 10px;
+		margin-left: 10px;*/
+		background-color: rgba(187 195 227 / 15%);
+		/*padding-left: 10px;
+		padding-right: 10px;*/
+	}
+
+	.course{
+		border-radius: 5px;
+		box-shadow: 0 0 10px 5px #d9d9d9;
+		background-color: #ffffff;
+		text-align: left;
+		padding: 10px;
+		font-size: 15px;
+		color: #9da2a7;
+	}
+
+	.main_course_div{
+		margin-top: 40px;
+		display: grid;
+	  	grid-template-columns: 350px;
+	  	column-gap: 50px;
+	  	row-gap: 50px;
+		margin-bottom: 40px;
+	}
+
+	#img_div{
+		width: 390px;
+		margin-right: -10px;
+		margin-top: -40px;
+		position: relative;
+		/*overflow:hidden;
+		z-index: -1;*/
+	}
+
+	#img{
+		content: url(assets/image-hero-mobile.png);
+		background-size: 560px;
+	  	width: 360px;
+	}
+
+	#footer_get_started{
+		margin-right: 28px;
+	}
+
+	#come{
+		margin-top: 300px;
+		margin-bottom: -10px;
+		margin-left: 25px;
+	}
+
+	#get_started{
+		float: right;
+		border-radius: 25px;
+		padding: 10px;
+		background-color: black;
+		color: white;
+		margin-top: 7px;
+		font-size: 15px;
+		margin-right: 15px;
+	}
 }
