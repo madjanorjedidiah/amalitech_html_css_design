@@ -30,7 +30,7 @@ body{
 #get_started{
 	float: right;
 	border-radius: 25px;
-	padding: 10px;
+	padding: 13px;
 	background-color: black;
 	color: white;
 	margin-top: 7px;
@@ -81,9 +81,9 @@ body{
 }
 
 #maximize_started{
-	padding: 10px;
+	padding: 13px;
 	border-radius: 25px;
-	background-color: rgba(231 106 199);
+	background: linear-gradient(#ed4a4b, #cb6c9c); /*rgba(231 106 199);*/
 	color: white;
 	font-size: 15px;
 	width: 80px;
@@ -91,13 +91,13 @@ body{
 
 .course{
 	border-radius: 5px;
-	width: 300px;
-	box-shadow: 0 0 10px 5px #d9d9d9;
+	width: 275px;
+	box-shadow: 0 0 8px 2px #efefef;
 	background-color: #ffffff;
 	text-align: left;
-	padding: 10px;
-	font-size: 15px;
-	color: #9da2a7;
+	padding: 25px;
+	font-size: 18px;
+	color: #83869A;
 }
 
 .main_course_div{
@@ -111,7 +111,7 @@ body{
 #popular_course{
 	color: #ffffff;
 	font-weight: bold;
-	background-color: rgba(227 84 157);
+	background: linear-gradient(#ed4a4b, #cb6c9c);
 	font-size: 27px;
 }
 
@@ -121,7 +121,12 @@ body{
 }
 
 .course_get_started{
-	color: #e314a3;
+	color: #F74780;
+	margin-bottom: -1px;
+}
+
+.course_get_started:hover{
+	color: #FFA7C3;
 }
 
 .img_radius{
@@ -129,7 +134,7 @@ body{
 	width: 30px;
 	display: flex;
   	justify-content: center;
-  	margin-top: -28px;
+  	margin-top: -42px;
     padding: 5px;
     height: 30px;
 }
@@ -147,10 +152,11 @@ body{
 #footer_get_started{
 	float: right;
 	border-radius: 25px;
-	padding: 10px;
-	background-color: rgba(197 120 177);
+	padding: 13px;
+	background: linear-gradient(#c20def, #ed4a4b);
 	color: white;
-	margin-top: 7px;
+	margin-top: -1px;
+    margin-top: 5px;
 	font-size: 15px;
 }
 
@@ -211,6 +217,10 @@ body{
 		color: #9da2a7;
 	}
 
+	.mini_div{
+		padding: 8px;
+	}
+
 	.main_course_div{
 		display: grid;
 	  	grid-template-columns: 350px 350px;
@@ -219,14 +229,28 @@ body{
 		margin-bottom: 40px;
 	}
 
+	#img_div{
+		width: 310px;
+		float: right;
+		margin-right: 13px;
+		margin-top: -160px;
+		position: relative;
+		overflow:hidden;
+		z-index: -1;
+	}
+
 	#img{
 		content: url(assets/image-hero-tablet.png);
 		background-size: 560px;
 	  	width: 560px;
 	}
 
+	#get_started{
+		margin-right: 46px;
+	}
+
 	#footer_get_started{
-		margin-right: 28px;
+		margin-right: 46px;
 	}
 }
 
